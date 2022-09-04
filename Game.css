@@ -1,0 +1,112 @@
+body {
+    background-color:beige;
+    
+}
+*{
+    font-family: 'Orbitron', sans-serif;
+}
+#canvas{
+   // border:2px solid black;
+    width:100%;
+    background-color:violet;
+    margin-top:5px;
+    box-shadow:0 0 5px gray; 
+}
+#btn{
+    text-align:center;
+}
+#up,#down,#left,#right{
+    width:20%;
+    height:50px;
+    border:2px solid black;
+    background:violet;
+    
+}
+#details{
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+}
+#sBlock{
+    box-sizing:border-box;
+    width:30%;
+    background:violet;
+    text-align:center;
+    border:2px solid black;
+    transform:skew(5deg);
+    box-shadow:0 0 5px gray;
+    height:30px;
+    
+}
+#mBlock{
+    box-sizing:border-box;
+    width:30%;
+    background:violet;
+    text-align:center;
+    border:2px solid black;
+    //transform:skew(5deg);
+    box-shadow:0 0 5px gray;
+    height:30px;
+}
+#wBlock{
+  box-sizing:border-box;
+    width:30%;
+    background:violet;
+    text-align:center;
+    border:2px solid black;
+    transform:skew(-5deg);
+    box-shadow:0 0 5px gray; 
+    height:30px;
+}
+#aimBlock{
+    background:violet;
+    margin:5px;
+    color:floralWhite;
+    border:2px solid violet;
+    box-shadow:0 0 8px violet,inset 0 0 8px violet;
+    padding:2px;
+    border-radius:5px;
+}
+a{
+    text-decoration:none;
+    color:white;
+}
+#promo{
+    text-align:center ;
+    font-size:1.8rem;
+    background:violet;
+    border-radius:35px;
+    margin-top:5px;
+    padding-top:5px;
+    border:2px solid black;
+}
+#withdrawal{
+    background:violet;
+    color:white;
+    width:90%;
+    border-radius:8px;
+    padding:8px;
+    box-sizing:border-box;
+    width:80%;
+    height:300px;
+    position:fixed;
+    top:5%;
+    left:10%;
+    box-shadow:0 0 5px gray;
+    display:none;
+    border:2px solid black;
+}
+#withdrawal h1{
+    text-align:center;
+}
+#Cancel{
+    text-align:right;
+    margin:0;
+}
+#price{
+    display:none;
+}
+#copy{
+    text-align:center;
+    text-shadow:0 0 5px gray;
+}
